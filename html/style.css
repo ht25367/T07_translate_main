@@ -1,0 +1,74 @@
+/* ページ、メイン・レイアウト */
+body {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+header {
+	margin-top:60px;
+	line-height:30px;
+}
+#main_table {
+	/* background-color: rgb(125, 149, 182); */
+	width:100%;
+}
+
+
+/* 横並table */
+.side_table{
+	width:100%;
+	/* background-color:mediumpurple */
+	background-color:#eee;
+	border-top:1px solid #777;
+	/* border-bottom:1px solid #777; */
+	/* box-shadow: 0px 2px 1px 0px #ccc; */
+
+}
+/* 横並td・左left */
+#side_td1{
+	width:44%;
+	background-color:#eee;
+}
+/* 横並td・中央center */
+#side_td2{
+	width:12%;
+	text-align:center;
+	background-color: #fff;
+	/* background-color:mediumpurple */
+}
+/* 横並td・右right */
+#side_td3{
+	width:44%;
+	padding:0px;
+	background-color:#eee;
+}
+
+ul{
+	margin:0;
+}
+td{
+	margin:0;
+	padding:0;
+}
+textarea {
+	width:90%;
+	padding:15px 25px;
+	margin:0;
+	border: 1px solid #777;
+}
+/* 横並list */
+ul {
+	padding-left: 0em;
+	text-align:center;
+}
+li {
+	list-style: none;
+	line-height: 30px;
+	float:left;
+	padding:0 22px;
+	color:#777;
+	border-left:1px solid #888;
+	border-bottom:2px solid #ccc;
+}
+li:last-child {
+	border-right:1px solid #888;
+}

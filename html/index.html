@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<title>テストサイト</title>
+</head>
+<body>
+	<header><p>google trans</p></header>
+	<div>
+	<form>
+	<table class="side_table">
+	<tr>
+		<td id="side_td1">
+			<ul id="input_language" name="input_language" onclick="input_lng_change(event)">
+				<li class="input_language">日本語</li>
+				<li class="input_language">英語</li>
+				<li class="input_language">韓国語</li>
+				<li class="input_language">ﾄﾞｲﾂ語</li>
+				<li class="input_language">ﾌﾗﾝｽ語</li>
+			</ul>
+			<br>
+			<textarea id="input_text" rows="13" placeholder="翻訳元" overflow="auto"></textarea>
+		</td>
+		<td id="side_td2">
+			
+			<input type="button" id="translation" value="翻　訳" style="width:70px;"/>
+			<br><br><br>
+			<input type="reset" />
+		</td>
+		<td id="side_td3">
+			<ul id="trans_language" onclick="trans_lng_change(event)">
+				<li class="trans_language">日本語</li>
+				<li class="trans_language">英語</li>
+				<li class="trans_language">韓国語</li>
+				<li class="trans_language">ﾄﾞｲﾂ語</li>
+				<li class="trans_language">ﾌﾗﾝｽ語</li>
+			</ul>
+			<textarea id="trans_text" rows="13" placeholder="結果" overflow="auto" readonly></textarea>
+		</td>
+	</tr>
+	</form>
+	</table>
+	</div>
+
+	<script type="text/javascript" src="./eel.js"></script>
+	<script type="text/javascript" src="./google_trans.js"></script>
+	<footer></footer>
+</body>
+</html>
